@@ -1,0 +1,22 @@
+ALGORITHM checkpoint
+VAR
+    a:= "hello , this is a first algo"
+  
+
+  
+    nbw:=1
+    nbv:=0
+BEGIN
+for (let i=0 ; i<a.length ; i++)
+IF a[i]=="") THEN
+nbw:= nbw + 1
+
+IF (a[i] in [a,e,i,o,y]) THEN
+nbv := nbv + 1
+    
+write("this is numbre of words ", nbw)    
+write("this is number vowel",nbv )
+write("length of caracters",a.length)
+
+    
+END
